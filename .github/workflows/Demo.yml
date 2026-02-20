@@ -1,0 +1,10 @@
+name: DemoFile for Build & Test
+on: push
+
+jobs:
+  DemoJob:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Message
+        run: echo 'Welcome to GitHub Actions Session'
